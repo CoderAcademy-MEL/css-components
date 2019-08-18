@@ -1,0 +1,29 @@
+.footer {
+  height: 70px;
+  box-shadow: var(--shadow);
+  background-color: #6200EE;
+  color: white;
+}
+
+.footer-links{
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.footer-tagline {
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-right: 15px;
+
+}
+.fa-heart-broken {
+  color: red;
+  font-size: 25px;
+}
+
+

@@ -1,0 +1,31 @@
+.sidebar {
+  box-shadow: var(--shadow-md);
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  box-shadow: var(--shadow);
+  height: 17%;
+  width: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-link:nth-child(1) {
+  margin-top: 5px;
+}
+
+.sidebar-link:hover {
+  color: #B0001F;
+  box-shadow: var(--shadow-lg);
+
+}

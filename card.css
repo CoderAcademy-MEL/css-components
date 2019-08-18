@@ -1,0 +1,25 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  height: 150px;
+  width: 150px;
+  box-shadow: var(--shadow);
+  margin: 5px 0px;
+/*   background-image: linear-gradient(var(--instaFilterThatGurl)),
+  url('https://images.pexels.com/photos/255441/pexels-photo-255441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover; */
+}
+
+.card:hover {
+  border: 2px solid var(--ferrariRed);
+  transform: scale(1.1);
+}
+
+.card-title {
+  color: white;
+  text-align: center;
+}
